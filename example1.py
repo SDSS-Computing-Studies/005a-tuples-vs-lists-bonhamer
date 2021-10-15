@@ -27,7 +27,8 @@ myList = [10,20,1,10,5]
 myOtherList = ["Joe","Fred",3,"12"]
 
 print( myList[1] )
-print( myOtherList[2] )
+x=2
+print( myOtherList[x] )
 
 print("\n\n")
 print("==== demonstration of tuple/list element assignment ===")

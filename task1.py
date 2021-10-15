@@ -23,5 +23,21 @@ The animal at that index is Dog
 """
 
 
+x = int(input("Enter Number: "))
+animals = ["Cat", "Fish", "Dog", "Bear", "Turtle"]
+animals.sort
 
-animals =
+if x == 2:
+    print(animals[2])
+elif x == 0:
+    print(animals[0])
+elif x == 3:
+    print(animals[3])
+elif x == 4:
+    print(animals[4])
+elif x == 1:
+    print(animals[1])
+
+
+
+
