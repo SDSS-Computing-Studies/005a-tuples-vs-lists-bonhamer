@@ -21,23 +21,19 @@ example:
 Enter the index for an animal:2
 The animal at that index is Dog
 """
-
-
-x = int(input("Enter Number: "))
-animals = ["Cat", "Fish", "Dog", "Bear", "Turtle"]
-animals.sort
-
-if x == 2:
-    print(animals[2])
-elif x == 0:
+animals = ["Cat", "Fish", "Dog" , "Bear", "Turtle"]
+animals.sort()
+number = int(input("Enter your number:"))
+if number == 0:
     print(animals[0])
-elif x == 3:
-    print(animals[3])
-elif x == 4:
-    print(animals[4])
-elif x == 1:
+elif number == 1:
     print(animals[1])
-
+elif number == 2:
+    print(animals[2])
+elif number == 3:
+    print(animals[3])
+elif number == 4:
+    print(animals[4])
 
 
 
