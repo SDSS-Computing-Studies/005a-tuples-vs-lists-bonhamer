@@ -22,9 +22,9 @@ Enter the replacement:Dan
 
 people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 print(people)
-o = str(input("Choose a person from the list to replace: ")).strip()
+x = str(input("Choose a person from the list to replace: ")).strip()
 y = str(input('Enter the replacement: ')).strip()
-if o in people:
-    people.remove(0)
+if x in people:
+    people.remove(x)
     people.append(y)
     print(people) 
