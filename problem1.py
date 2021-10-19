@@ -27,4 +27,4 @@ y = str(input('Enter the replacement: ')).strip()
 if x in people:
     people.remove(x)
     people.append(y)
-    print(people) 
+    print(people)
